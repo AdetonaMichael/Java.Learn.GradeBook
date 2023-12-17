@@ -10,12 +10,11 @@ public class GradeBookTest{
 
         
         myGradeBook.setCourseName(usersCourse);
-        System.out.println("Student Course Set Successfully...");
+        System.out.print("\n");
         myGradeBook.setCourseCode(202);
-        System.out.println("The Course Code has Been Set Successfully...");
-
-        System.out.println("Showing Message. ");
-        myGradeBook.showCourseInformation();
+        myGradeBook.inputGrades();
+        System.out.print("\n");
+        myGradeBook.displayGradeReport();
 
         
         courseInput.close();
